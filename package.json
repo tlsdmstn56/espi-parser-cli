@@ -25,5 +25,9 @@
   },
   "keywords": [
     "xml", "parser", "espi"
-  ]
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/tlsdmstn56/espi-parser-cli.git"
+  }
 }
