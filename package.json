@@ -1,0 +1,29 @@
+{
+  "name": "espi-parser-cli",
+  "version": "0.1.0",
+  "description": "CLI interface of espi-parser",
+  "author": {
+    "name":"Eunsoo Sheen",
+    "email": "eunsoo.sheen@gmail.com"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "private": false,
+  "scripts": {
+    "test": "espi-parser -o ./example ./example/espi-example.xml"
+  },
+  "bin": {
+    "espi-parser": "./bin/espi-parser-cli.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5",
+    "espi-parser": "^0.3.1"
+  },
+  "keywords": [
+    "xml", "parser", "espi"
+  ]
+}
